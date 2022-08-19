@@ -1,1 +1,0 @@
-My Personal Portfolio including projects made by me.
