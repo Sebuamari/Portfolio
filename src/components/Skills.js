@@ -7,6 +7,7 @@ export default class Skills extends Component {
         <div className='skillset'>
           <p className='skills-header'> I understand basics of:</p>
           <p className='skills'>
+            <i class="fa-brands fa-git-alt"></i> Git <br/>
             <i class="fa-light fa-circle-small"></i> BOOTSTRAP <i class="fa-brands fa-bootstrap"></i> <br/>
             <i class="fa-light fa-circle-small"></i> SASS <i class="fa-brands fa-sass"></i> <br/>
             <i class="fa-light fa-circle-small"></i> jQuery <br/>
