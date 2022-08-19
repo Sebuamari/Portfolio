@@ -10,7 +10,7 @@ function Landing () {
     return (
       <div className='landing-container'>
         <h1 className='hello'> Hello <i class="fa-solid fa-hand waving"></i></h1>
-        <h2 className='me'>I'm Mariam Sebua <br/> Junior Web-Developer <br/> Can I help you in digital world?</h2>
+        <h2 className='me'>I'm Mariam Sebua <br/> Junior Web Developer <br/> Can I help you in digital world?</h2>
         <About/>
         <Skills/>
         <Projectsmini/>
