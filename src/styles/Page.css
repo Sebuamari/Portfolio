@@ -34,6 +34,7 @@ body{
     height: 90%;
     background-color: rgba(143, 145, 162, 0.3);
     border-radius: 150px 20px 150px 20px;
+    z-index: 1;
 }
 .navigations-container > .contacts-mini{
     left: 88%;
@@ -357,14 +358,19 @@ body{
     body{
         background-repeat: repeat-y;
     }
+    .info-container,
+    .skills-container{
+        width: 80%;
+        margin-left: 7%;
+    }
     .landing-container{
         width: 90%;
         margin-left: 5%;
         margin-top: 150px;
     }
     .projects-container{
-        width: 90%;
-        margin-left: 5%;
+        width: 95%;
+        margin-left: 2.5%;
         margin-bottom: 100px;
         padding: 0;
     }
@@ -380,10 +386,65 @@ body{
         background-color: rgba(143, 145, 162, 1);
     }
     .navigations-container > .contacts-mini{
-        top:95%;
+        top:90%;
     }
     .navigations-container > .links-container::before,
     .navigations-container > .links-container::after{
         display: none;
+    }
+}
+@media screen and (max-width: 800px) {
+    .navigations-container > .links-container,
+    .navigations-container > .contacts-mini{
+        height: 50px;
+    }
+    .navigations-container > .contacts-mini{
+        top: 95%;
+    }
+    .nav-link > .nav-link-text,
+    .nav-link > a{
+        font-size: 10px;
+    }
+    .landing-container > .hello,
+    .landing-container > .me,
+    .projects-container > h1{
+        font-size: 50px;
+    }
+    .landing-container{
+        margin-top: 100px;
+    }
+    .info-container,
+    .skills-container{
+        margin-left: 0%;
+        margin-top: 25vh;
+    }
+    .contacts-container{
+        margin-top: 50px;
+    }
+    .info-container > .about{
+        font-size: 15px;
+    }
+    .skillset > .skills-header {
+        font-size: 15px;
+    }
+    .project-container > .project-image {
+        width: 40%;
+        height: 100px;
+    }
+    .project-container > .project-data {
+        width: 60%;
+    }
+    .project-data > p {
+        font-size: 15px;
+    }
+    .project-links > a{
+        font-size: 20px;
+    }
+    .contacts-container > iframe{
+        width: 100%;
+    }
+    .contacts-container > h1,
+    .contacts-container > h2{
+        font-size: 30px;
     }
 }
