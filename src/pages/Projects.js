@@ -33,7 +33,7 @@ export default class Projects extends Component {
         <Project images={redberry} madeWidth="ReactJS, Redux, CSS, , API"
         description="Online Form"
         linkRepo="https://github.com/Sebuamari/redberry-bootcamp-assignment.git"
-        linkLive=""/>
+        linkLive="https://sebuamari.github.io/redberry-bootcamp-assignment/"/>
         <Project images={Slider} madeWidth="HTML, CSS, JS"
         description="Image Slider"
         linkRepo="https://github.com/Sebuamari/Image-Slider.git"

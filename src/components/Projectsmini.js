@@ -26,7 +26,7 @@ export default class Projects extends Component {
         <Project images={redberry} madeWidth="ReactJS, Redux, CSS, , API"
         description="Online Form"
         linkRepo="https://github.com/Sebuamari/redberry-bootcamp-assignment.git"
-        linkLive=""/>
+        linkLive="https://sebuamari.github.io/redberry-bootcamp-assignment/"/>
         <button><Link className='see-more' to="/Projects">SEE MORE...</Link></button>
       </div>
     )
