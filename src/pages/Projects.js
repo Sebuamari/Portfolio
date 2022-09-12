@@ -6,6 +6,7 @@ import Weather from "../images/weather.png"
 import Slider from "../images/slider.png"
 import Search from "../images/search.png"
 import Travel from "../images/travel.png"
+import redberry from "../images/redberry.png"
 import Clock from "../images/clock.png"
 import Calculator from "../images/calculator.png"
 import Machine from "../images/machine.png"
@@ -29,6 +30,10 @@ export default class Projects extends Component {
         description="A Weather App"
         linkRepo="https://github.com/Sebuamari/Weather-App.git"
         linkLive="https://sebuamari.github.io/Weather-App/"/>
+        <Project images={redberry} madeWidth="ReactJS, Redux, CSS, , API"
+        description="Online Form"
+        linkRepo="https://github.com/Sebuamari/redberry-bootcamp-assignment.git"
+        linkLive=""/>
         <Project images={Slider} madeWidth="HTML, CSS, JS"
         description="Image Slider"
         linkRepo="https://github.com/Sebuamari/Image-Slider.git"

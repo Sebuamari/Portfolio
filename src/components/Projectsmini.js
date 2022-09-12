@@ -3,9 +3,7 @@ import Project from '../components/Project'
 import Casino from "../images/casino.png"
 import Shop from "../images/Scandiweb Store/1.png"
 import Weather from "../images/weather.png"
-import Slider from "../images/slider.png"
-import Search from "../images/search.png"
-import Travel from "../images/travel.png"
+import redberry from "../images/redberry.png"
 import { Link } from 'react-router-dom'
 
 export default class Projects extends Component {
@@ -25,10 +23,10 @@ export default class Projects extends Component {
         description="A Weather App"
         linkRepo="https://github.com/Sebuamari/Weather-App.git"
         linkLive="https://sebuamari.github.io/Weather-App/"/>
-        <Project images={Slider} madeWidth="HTML, CSS, JS, API"
-        description="Image Slider"
-        linkRepo="https://github.com/Sebuamari/Image-Slider.git"
-        linkLive="https://sebuamari.github.io/Image-Slider/"/>
+        <Project images={redberry} madeWidth="ReactJS, Redux, CSS, , API"
+        description="Online Form"
+        linkRepo="https://github.com/Sebuamari/redberry-bootcamp-assignment.git"
+        linkLive=""/>
         <button><Link className='see-more' to="/Projects">SEE MORE...</Link></button>
       </div>
     )
