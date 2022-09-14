@@ -58,10 +58,10 @@ export default class Projects extends Component {
         description="Drum Machine"
         linkRepo=""
         linkLive="https://codepen.io/sebuamari/pen/vYprajN"/>
-        <Project images={Quote} madeWidth="HTML, CSS, JS, jquery"
-        description="Random Quote Machine"
-        linkRepo=""
-        linkLive="https://codepen.io/sebuamari/pen/JjOpMXd"/>
+        <Project images={Quote} madeWidth="ReactJS, CSS, API"
+        description="Random Advice Generator App"
+        linkRepo="https://github.com/Sebuamari/advicer.git"
+        linkLive="https://sebuamari.github.io/advicer/"/>
       </div>
     )
   }
